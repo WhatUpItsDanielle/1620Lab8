@@ -5,6 +5,11 @@
 
 //step 2 select the first paragraph in the second div and add the class 'paragraph-color' so that the styles in the style sheet are applied to only that paragraph
 
+function changeColor(){
+    document.querySelector(".first-paragraph").classList.add("paragraph-color");
+}
+changeColor();
+
 // step 3 create a paragraph template using a template litteral
 
 // step 5 add the paragraph template you just created to the first div using innerHTML
