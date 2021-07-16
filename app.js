@@ -12,4 +12,11 @@ changeColor();
 
 // step 3 create a paragraph template using a template litteral
 
+function ParagraphTemplate(para){
+    const pTemplate = "Paragraph template using tmeplate litteral: " 
+    $(para);
+    return(pTemplate)
+}
+
 // step 5 add the paragraph template you just created to the first div using innerHTML
+
